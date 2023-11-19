@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>To Do List</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header">
+		<form class="todo-control">
+			<label>
+				<input class="header-input" type="text" placeholder="What are the plans?">
+			</label>
+			<button class="header-button" id="add"></button>
+		</form>
+	</header>
+
+	<div class="todo-container">
+		<ul class="todo todo-list" id="todo">
+			<li class="todo-item">
+				<span class="text-todo">Drink coffee</span>
+				<div class="todo-buttons">
+					<button class="todo-remove"></button>
+					<button class="todo-complete"></button>
+				</div>
+			</li>
+		</ul>
+		<ul class="todo todo-completed" id="completed">
+			<li class="todo-item">
+				<span class="text-todo">Brew coffee</span>
+				<div class="todo-buttons">
+					<button class="todo-remove"></button>
+					<button class="todo-complete"></button>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+</html>
